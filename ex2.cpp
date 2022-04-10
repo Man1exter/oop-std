@@ -8,7 +8,7 @@ const int N = 12; //globalna zmienna..
 
 class tab
 {
-    protected:
+    protected:  // protected- składowe "zabezpieczone" - dostępne dlaobiektów klas pochodnychwzględem danej klasy (niedostępne w zakresie funkcjimaini obiektów innychklas).
 
     int t[N];
     void zapelnij_tab();
