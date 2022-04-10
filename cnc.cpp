@@ -2,7 +2,7 @@
 #include <conio.h>
 #include <math.h>
 
-const float PI = 3.14; // zmienna globalna...
+const double PI = 3.14; // zmienna globalna...
 
 class kolo
 {
@@ -46,7 +46,6 @@ class kolo
         kolo k1;
         podaj_promien(k1, 3.0);
         k1.przetwarzaj();
-        getch();
         return 0;
         }
         
