@@ -61,9 +61,13 @@ class tab1: private tab
 int tab1::min_tab()
 {
 int min=t[0];
+
 for (int i=1; i<N; i++)
+
 if (t[i]<min) 
+
 min=t[i];
+
 return min;
 }
 
@@ -71,13 +75,16 @@ void tab1::przetwarzaj()
 {
     zapelnij_tab();
     pokaz_tab();
+
     printf("Minimum: %2d\n", min_tab());
     printf("Maksimum: %2d\n", max_tab());
 }
 
 int main()
 {
-    tab obiekt;tab1 obiekt1;
+    tab obiekt;
+    tab1 obiekt1;
+
     obiekt.przetwarzaj();
     obiekt1.przetwarzaj();
     getch();return 0;
