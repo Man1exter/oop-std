@@ -30,9 +30,9 @@ class kolo
     void kolo::pokaz_wyniki()
     {
         printf("\n Parametry kola: ");
-        printf("\n Promien=%.3lE", promien);
-        printf("\n Pole=%.3lE", pole);
-        printf("\n Obwod=%3lE\n\n", obwod);
+        printf("\n Promien = %.3lE", promien);
+        printf("\n Pole = %.3lE", pole);
+        printf("\n Obwod = %3lE\n\n", obwod);
     }
 
     void kolo::przetwarzaj()
